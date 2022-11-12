@@ -5,8 +5,6 @@ public class G20UITesting {
 
 	public static void main(String[] args) {
 		
-		
-		
 		// Set Executable Broswer path
 		System.setProperty("webdriver.chrome.driver", 
 				"C:\\SeleniumJarAndDriver\\chromedriver_win32\\chromedriver.exe");
