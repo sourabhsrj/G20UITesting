@@ -22,7 +22,7 @@ public class Sample {
 	@BeforeClass
 	public void init() {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sourabh\\git\\G20UITesting\\src\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src\\drivers\\chromedriver.exe");
 
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
