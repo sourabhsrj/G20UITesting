@@ -70,6 +70,60 @@ public class Sample {
 	}
 	
 	
+
 	
+	
+	@Test
+	public void contactUs() {	
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Sourabh\\git\\G20UITesting\\src\\drivers\\chromedriver.exe");
+
+		WebDriver driver= new ChromeDriver();
+
+		driver.manage().window().maximize();
+		driver.get("https://www.orchidengg.ac.in");
+//
+//        WebElement hoverable = driver.findElement(By.className("tc-menu-inner"));
+//       Actions a= new Actions(driver);
+//       
+//                a.moveToElement(hoverable).click().perform();
+//	
+                
+             // Locating the Main Menu (Parent element)
+//                WebElement mainMenu = driver.findElement(By.xpath("//input[@class=\"thim-widget-link\"]"));
+
+        WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/a"));
+                //Instantiating Actions class
+                Actions actions = new Actions(driver);
+
+                //Hovering on main menu
+
+                actions.moveToElement(mainMenu);
+                actions.moveToElement(mainMenu).click();
+//                actions.
+
+//                // Locating the element from Sub Menu
+                WebElement subMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/ul/li[1]/a"));
+//
+//                //To mouseover on sub menu
+                actions.moveToElement(subMenu);
+
+                actions.moveToElement(subMenu).click();
+                //build()- used to compile all the actions into a single step 
+                actions.click().build().perform();  
+                
+                ////*[@id="wpcf7-f8057-p87-o1"]/form/p[1]/span/input
+                
+                driver.findElement(By.xpath("//*[@id=\"wpcf7-f8057-p87-o1\"]/form/p[1]/span/input")).sendKeys("Sourabh Jadhav");
+                driver.findElement(By.xpath(" //*[@id=\"wpcf7-f8057-p87-o1\"]/form/p[2]/span/input")).sendKeys("Test@gmail.com");
+                driver.findElement(By.xpath("//*[@id=\"wpcf7-f8057-p87-o1\"]/form/p[3]/span/input")).sendKeys("Testing Project");
+                driver.findElement(By.xpath("//*[@id=\"wpcf7-f8057-p87-o1\"]/form/p[4]/span/textarea")).sendKeys("Mini project testing performed by BE Entc dept student");
+                
+
+//           	 driver.findElement(By.className("search-submit")).click(); 
+
+                
+//                actions.click(mainMenu);
+                
+	}
 	
 }
