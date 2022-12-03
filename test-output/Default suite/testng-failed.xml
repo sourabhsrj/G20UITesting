@@ -6,8 +6,8 @@
       <class name="OrchidCollegeWebSite.Sample">
         <methods>
           <include name="searchButton"/>
-          <include name="set"/>
           <include name="contactUs"/>
+          <include name="init"/>
           <include name="entcDepartment"/>
         </methods>
       </class> <!-- OrchidCollegeWebSite.Sample -->
