@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-03T09:02:12 IST" name="Default suite" finished-at="2022-12-03T09:02:38 IST" duration-ms="25950">
+    <groups>
+    </groups>
+    <test started-at="2022-12-03T09:02:12 IST" name="Default test" finished-at="2022-12-03T09:02:38 IST" duration-ms="25950">
+      <class name="OrchidCollegeWebSite.Sample">
+        <test-method is-config="true" signature="init()[pri:0, instance:OrchidCollegeWebSite.Sample@71cea1b8]" started-at="2022-12-03T09:02:12 IST" name="init" finished-at="2022-12-03T09:02:26 IST" duration-ms="14352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="contactUs()[pri:0, instance:OrchidCollegeWebSite.Sample@71cea1b8]" started-at="2022-12-03T09:02:26 IST" name="contactUs" finished-at="2022-12-03T09:02:29 IST" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method signature="entcDepartment()[pri:0, instance:OrchidCollegeWebSite.Sample@71cea1b8]" started-at="2022-12-03T09:02:29 IST" name="entcDepartment" finished-at="2022-12-03T09:02:32 IST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entcDepartment -->
+        <test-method signature="searchButton()[pri:0, instance:OrchidCollegeWebSite.Sample@71cea1b8]" started-at="2022-12-03T09:02:32 IST" name="searchButton" finished-at="2022-12-03T09:02:38 IST" duration-ms="5275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButton -->
+      </class> <!-- OrchidCollegeWebSite.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
