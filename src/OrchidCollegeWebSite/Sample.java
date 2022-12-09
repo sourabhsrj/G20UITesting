@@ -186,7 +186,48 @@ public class Sample {
                 
 	}
 	
-	
+	@Test
+	public void entcDepartmentStaff2() throws InterruptedException {	
+
+
+ 
+//                Actions actions = new Actions(driver);
+//                WebElement Staff = driver.findElement(By.xpath("//*[@id=\\\"post-7917\\\"]/div/div[1]/div/div/div/div[2]/div/div[1]/ul/li[2]/a/span"));
+////                WebElement Staff = driver.findElement(By.className("vc_tta-title-text"));
+//                
+////                new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.visibilityOf(Staff));               
+//                //
+//
+////                                //To mouseover on sub menu
+//                actions.moveToElement(Staff);
+//
+//                actions.moveToElement(Staff).click();  
+//                
+//                actions.click().build().perform();       
+                
+      WebElement staffName2=driver.findElement(By.xpath("//*[@id=\"faculty-and-staff\"]/div[2]/div/div/div/table/tbody/tr[13]/td[2]/a"));
+
+      System.out.println("Testing Mr. Bakare R. S. Name");
+      System.out.println(staffName2.getText());
+      assertEquals(staffName2.getText(), "Mr. Bakare R. S.");
+//                WebElement hod = driver.findElement(By.xpath("//*[@id=\"faculty-and-staff\"]/div[2]/div/div/div/table/tbody/tr[2]/td[2]/a"));
+//                                //
+////                              //To mouseover on sub menu
+//                              actions.moveToElement(hod);
+//
+//                              actions.moveToElement(hod).click();  
+//                              
+                              
+//                              WebElement subMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/ul/li[4]/a"));
+//                              //
+////                            //To mouseover on sub menu
+//                            actions.moveToElement(subMenu);
+//
+//                            actions.moveToElement(subMenu).click();
+                //build()- used to compile all the actions into a single step 
+//                actions.click(mainMenu);
+                
+	}
 	
 
 	
