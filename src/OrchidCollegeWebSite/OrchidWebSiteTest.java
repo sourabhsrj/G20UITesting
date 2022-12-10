@@ -426,7 +426,44 @@ public class OrchidWebSiteTest {
 		
 		
 		
-	
-	
+//		@Test
+//		public void enquiryButtonTest() {	
+//	
+//	
+//	
+//	        WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"thim-body\"]/div[3]/div[2]/div[1]/div[1]"));
+//	                //Instantiating Actions class
+//	                Actions actions = new Actions(driver);
+//	
+//	                //Hovering on main menu
+//	
+//	                actions.moveToElement(mainMenu);
+//	                actions.moveToElement(mainMenu).click();
+////	                actions.
+//	
+////	                // Locating the element from Sub Menu
+//	                WebElement subMenu = driver.findElement(By.xpath("//*[@id=\"chaty-channel-custom_link\"]/a"));
+//	//
+////	                //To mouseover on sub menu
+//	                actions.moveToElement(subMenu);
+//	
+////	                actions.moveToElement(subMenu).click();
+//	                //build()- used to compile all the actions into a single step 
+//	                actions.click().build().perform();  
+//	                
+//	                ////*[@id="wpcf7-f8057-p87-o1"]/form/p[1]/span/input
+//	              //*[@id="wpcf7-f7295-p7296-o1"]/form/p[1]/span/input
+//	                
+//	                driver.findElement(By.xpath("//*[@id=\"wpcf7-f7295-p7296-o1\"]/form/p[1]/span/input")).sendKeys("Sourabh");
+//	                driver.findElement(By.xpath(" //*[@id=\"wpcf7-f7295-p7296-o1\"]/form/p[2]/span/input")).sendKeys("Jadhav");
+//	                driver.findElement(By.xpath("//*[@id=\"wpcf7-f7295-p7296-o1\"]/form/p[3]/span/input")).sendKeys("1122334455");
+////	                driver.findElement(By.xpath("//*[@id=\"wpcf7-f7295-p7296-o1\"]/form/p[4]/span/select/option[2]")).click();
+//	                
+//	
+//	
+//	                
+//		}
+//	
+//	
 	
 }
