@@ -1,11 +1,5 @@
 package OrchidCollegeWebSite;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
-
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -13,8 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -27,6 +21,7 @@ public class OrchidWebSiteTest {
 	WebDriverWait wait;
 
 	// This method is to navigate flipkart URL
+	@SuppressWarnings("deprecation")
 	@BeforeClass
 	public void init() {
 
@@ -147,7 +142,7 @@ public class OrchidWebSiteTest {
 
 		System.out.println("Testing Hod Name");
 		System.out.println(staffName.getText());
-		assertEquals(staffName.getText(), "Mr.  Dhotre  S. S.");
+		AssertJUnit.assertEquals(staffName.getText(), "Mr.  Dhotre  S. S.");
 //                WebElement hod = driver.findElement(By.xpath("//*[@id=\"faculty-and-staff\"]/div[2]/div/div/div/table/tbody/tr[2]/td[2]/a"));
 //                                //
 ////                              //To mouseover on sub menu
@@ -199,7 +194,7 @@ public class OrchidWebSiteTest {
 
 		System.out.println("Testing Mr. Bakare R. S. Name");
 		System.out.println(staffName2.getText());
-		assertEquals(staffName2.getText(), "Mr. Bakare R. S.");
+		AssertJUnit.assertEquals(staffName2.getText(), "Mr. Bakare R. S.");
 //                WebElement hod = driver.findElement(By.xpath("//*[@id=\"faculty-and-staff\"]/div[2]/div/div/div/table/tbody/tr[2]/td[2]/a"));
 //                                //
 ////                              //To mouseover on sub menu
@@ -279,7 +274,7 @@ public class OrchidWebSiteTest {
 		// build()- used to compile all the actions into a single step
 //		assertNull(subMenu.getAttribute("href"));
 		System.out.print("_________"+subMenu.getAttribute("href").toString()+"_________");
-		assertTrue(subMenu.getAttribute("href").contains("/#"));
+		AssertJUnit.assertTrue(subMenu.getAttribute("href").contains("/#"));
 
 		//// *[@id="wpcf7-f8057-p87-o1"]/form/p[1]/span/input
 
