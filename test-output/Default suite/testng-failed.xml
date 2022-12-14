@@ -5,8 +5,8 @@
     <classes>
       <class name="OrchidCollegeWebSite.OrchidWebSiteTest">
         <methods>
-          <include name="enquiryButtonTest"/>
           <include name="init"/>
+          <include name="noLink"/>
         </methods>
       </class> <!-- OrchidCollegeWebSite.OrchidWebSiteTest -->
     </classes>
