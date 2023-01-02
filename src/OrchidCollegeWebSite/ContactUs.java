@@ -67,7 +67,7 @@ public class ContactUs {
 	}
 	
 	@Test
-	public void AboutPNESLink() {
+	public void FaultyAndStaff() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/a"));
 		// Instantiating Actions class
@@ -96,7 +96,7 @@ public class ContactUs {
 	
 
 	@Test
-	public void VisionMissionLink() {
+	public void WebsiteFeedBack() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/a"));
 		// Instantiating Actions class

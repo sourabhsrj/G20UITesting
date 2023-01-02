@@ -1,301 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="56" passed="56" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-02T12:13:55 IST" name="Default suite" finished-at="2023-01-02T12:26:31 IST" duration-ms="755492">
+  <suite started-at="2023-01-02T15:00:31 IST" name="Default suite" finished-at="2023-01-02T15:01:49 IST" duration-ms="78355">
     <groups>
     </groups>
-    <test started-at="2023-01-02T12:13:55 IST" name="Default test" finished-at="2023-01-02T12:26:31 IST" duration-ms="755492">
-      <class name="OrchidCollegeWebSite.FeeStructureLinks">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.FeeStructureLinks@6babf3bf]" started-at="2023-01-02T12:13:55 IST" name="beforeClass" finished-at="2023-01-02T12:14:10 IST" duration-ms="14767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="FEESTRUCTURETLink()[pri:0, instance:OrchidCollegeWebSite.FeeStructureLinks@6babf3bf]" started-at="2023-01-02T12:14:10 IST" name="FEESTRUCTURETLink" finished-at="2023-01-02T12:14:14 IST" duration-ms="3757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FEESTRUCTURETLink -->
-        <test-method signature="FeeStructureforAY2022_23Link()[pri:0, instance:OrchidCollegeWebSite.FeeStructureLinks@6babf3bf]" started-at="2023-01-02T12:14:14 IST" name="FeeStructureforAY2022_23Link" finished-at="2023-01-02T12:14:15 IST" duration-ms="1149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FeeStructureforAY2022_23Link -->
-      </class> <!-- OrchidCollegeWebSite.FeeStructureLinks -->
-      <class name="OrchidCollegeWebSite.TrainingAndPlacements">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:15 IST" name="beforeClass" finished-at="2023-01-02T12:14:34 IST" duration-ms="18828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:34 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:14:43 IST" duration-ms="9219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:43 IST" name="AboutPNESLink" finished-at="2023-01-02T12:14:47 IST" duration-ms="4033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:47 IST" name="CoreValuesLink" finished-at="2023-01-02T12:14:52 IST" duration-ms="5154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CoreValuesLink -->
-        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:52 IST" name="OrganogramLink" finished-at="2023-01-02T12:14:53 IST" duration-ms="624" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink -->
-        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:53 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T12:14:55 IST" duration-ms="2603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PrincipalsDeskLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@2053d869]" started-at="2023-01-02T12:14:55 IST" name="VisionMissionLink" finished-at="2023-01-02T12:15:03 IST" duration-ms="7251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
-      </class> <!-- OrchidCollegeWebSite.TrainingAndPlacements -->
-      <class name="OrchidCollegeWebSite.ResearchLInks">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:15:03 IST" name="beforeClass" finished-at="2023-01-02T12:16:29 IST" duration-ms="86001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:16:29 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:16:39 IST" duration-ms="10571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:16:39 IST" name="AboutPNESLink" finished-at="2023-01-02T12:16:42 IST" duration-ms="2605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:16:42 IST" name="CoreValuesLink" finished-at="2023-01-02T12:16:44 IST" duration-ms="2640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CoreValuesLink -->
-        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:16:44 IST" name="OrganogramLink" finished-at="2023-01-02T12:16:47 IST" duration-ms="2746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink -->
-        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:16:47 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T12:16:52 IST" duration-ms="4966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PrincipalsDeskLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@7a419da4]" started-at="2023-01-02T12:16:52 IST" name="VisionMissionLink" finished-at="2023-01-02T12:16:56 IST" duration-ms="4229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
-      </class> <!-- OrchidCollegeWebSite.ResearchLInks -->
-      <class name="OrchidCollegeWebSite.SuggestionsOrGrievances">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.SuggestionsOrGrievances@14555e0a]" started-at="2023-01-02T12:16:56 IST" name="beforeClass" finished-at="2023-01-02T12:17:23 IST" duration-ms="26778" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.SuggestionsOrGrievances@14555e0a]" started-at="2023-01-02T12:17:23 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:17:31 IST" duration-ms="7415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-      </class> <!-- OrchidCollegeWebSite.SuggestionsOrGrievances -->
+    <test started-at="2023-01-02T15:00:31 IST" name="Default test" finished-at="2023-01-02T15:01:49 IST" duration-ms="78355">
       <class name="OrchidCollegeWebSite.DepartmentsLInks">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:17:31 IST" name="beforeClass" finished-at="2023-01-02T12:18:20 IST" duration-ms="49081" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:00:31 IST" name="beforeClass" finished-at="2023-01-02T15:00:50 IST" duration-ms="19243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:18:20 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:18:41 IST" duration-ms="21039" status="PASS">
+        <test-method signature="ArtificialIntelligance()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:00:50 IST" name="ArtificialIntelligance" finished-at="2023-01-02T15:00:56 IST" duration-ms="5812" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:18:41 IST" name="AboutPNESLink" finished-at="2023-01-02T12:18:49 IST" duration-ms="8205" status="PASS">
+        </test-method> <!-- ArtificialIntelligance -->
+        <test-method signature="CivilEngineering()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:00:56 IST" name="CivilEngineering" finished-at="2023-01-02T15:00:59 IST" duration-ms="3589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:18:49 IST" name="CoreValuesLink" finished-at="2023-01-02T12:18:56 IST" duration-ms="7590" status="PASS">
+        </test-method> <!-- CivilEngineering -->
+        <test-method signature="ComputerScienceAndEngg()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:00:59 IST" name="ComputerScienceAndEngg" finished-at="2023-01-02T15:01:13 IST" duration-ms="13118" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CoreValuesLink -->
-        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:18:56 IST" name="OrganogramLink" finished-at="2023-01-02T12:19:09 IST" duration-ms="12740" status="PASS">
+        </test-method> <!-- ComputerScienceAndEngg -->
+        <test-method signature="ENTC()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:01:13 IST" name="ENTC" finished-at="2023-01-02T15:01:38 IST" duration-ms="25540" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrganogramLink -->
-        <test-method signature="OrganogramLink2()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:19:09 IST" name="OrganogramLink2" finished-at="2023-01-02T12:19:12 IST" duration-ms="2868" status="PASS">
+        </test-method> <!-- ENTC -->
+        <test-method signature="Electrical()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:01:38 IST" name="Electrical" finished-at="2023-01-02T15:01:41 IST" duration-ms="2405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrganogramLink2 -->
-        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:19:12 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T12:19:16 IST" duration-ms="3765" status="PASS">
+        </test-method> <!-- Electrical -->
+        <test-method signature="GeneralEngg()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:01:41 IST" name="GeneralEngg" finished-at="2023-01-02T15:01:45 IST" duration-ms="4005" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PrincipalsDeskLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@4bb33f74]" started-at="2023-01-02T12:19:16 IST" name="VisionMissionLink" finished-at="2023-01-02T12:19:52 IST" duration-ms="35825" status="PASS">
+        </test-method> <!-- GeneralEngg -->
+        <test-method signature="Mechcanical()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@2dde1bff]" started-at="2023-01-02T15:01:45 IST" name="Mechcanical" finished-at="2023-01-02T15:01:49 IST" duration-ms="4566" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
+        </test-method> <!-- Mechcanical -->
       </class> <!-- OrchidCollegeWebSite.DepartmentsLInks -->
-      <class name="OrchidCollegeWebSite.Research">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:19:52 IST" name="beforeClass" finished-at="2023-01-02T12:20:36 IST" duration-ms="44677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:20:36 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:20:50 IST" duration-ms="13708" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:20:50 IST" name="AboutPNESLink" finished-at="2023-01-02T12:20:54 IST" duration-ms="3755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:20:54 IST" name="CoreValuesLink" finished-at="2023-01-02T12:20:57 IST" duration-ms="2725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CoreValuesLink -->
-        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:20:57 IST" name="OrganogramLink" finished-at="2023-01-02T12:20:59 IST" duration-ms="2836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink -->
-        <test-method signature="OrganogramLink1()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:20:59 IST" name="OrganogramLink1" finished-at="2023-01-02T12:21:07 IST" duration-ms="7978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink1 -->
-        <test-method signature="OrganogramLink2()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:21:07 IST" name="OrganogramLink2" finished-at="2023-01-02T12:21:11 IST" duration-ms="3429" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink2 -->
-        <test-method signature="OrganogramLink3()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:21:11 IST" name="OrganogramLink3" finished-at="2023-01-02T12:21:14 IST" duration-ms="2684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink3 -->
-        <test-method signature="OrganogramLink4()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:21:14 IST" name="OrganogramLink4" finished-at="2023-01-02T12:21:16 IST" duration-ms="2407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink4 -->
-        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:21:16 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T12:21:21 IST" duration-ms="5111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PrincipalsDeskLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.Research@759d26fb]" started-at="2023-01-02T12:21:21 IST" name="VisionMissionLink" finished-at="2023-01-02T12:21:24 IST" duration-ms="2458" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
-      </class> <!-- OrchidCollegeWebSite.Research -->
-      <class name="OrchidCollegeWebSite.AdmissionsLInks">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@3d5c822d]" started-at="2023-01-02T12:21:58 IST" name="beforeClass" finished-at="2023-01-02T12:22:53 IST" duration-ms="54693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@3d5c822d]" started-at="2023-01-02T12:22:53 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:23:04 IST" duration-ms="10985" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-      </class> <!-- OrchidCollegeWebSite.AdmissionsLInks -->
-      <class name="OrchidCollegeWebSite.ContactUs">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.ContactUs@3c73951]" started-at="2023-01-02T12:21:24 IST" name="beforeClass" finished-at="2023-01-02T12:21:47 IST" duration-ms="23056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.ContactUs@3c73951]" started-at="2023-01-02T12:21:47 IST" name="AboutPNESLink" finished-at="2023-01-02T12:21:52 IST" duration-ms="5832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.ContactUs@3c73951]" started-at="2023-01-02T12:21:52 IST" name="VisionMissionLink" finished-at="2023-01-02T12:21:55 IST" duration-ms="2640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
-        <test-method signature="contactUsTest()[pri:0, instance:OrchidCollegeWebSite.ContactUs@3c73951]" started-at="2023-01-02T12:21:55 IST" name="contactUsTest" finished-at="2023-01-02T12:21:58 IST" duration-ms="3243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsTest -->
-      </class> <!-- OrchidCollegeWebSite.ContactUs -->
-      <class name="OrchidCollegeWebSite.CampusLife">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:04 IST" name="beforeClass" finished-at="2023-01-02T12:23:25 IST" duration-ms="20638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:25 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:23:34 IST" duration-ms="9854" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:34 IST" name="AboutPNESLink" finished-at="2023-01-02T12:23:38 IST" duration-ms="3630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:38 IST" name="CoreValuesLink" finished-at="2023-01-02T12:23:42 IST" duration-ms="4105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CoreValuesLink -->
-        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:42 IST" name="OrganogramLink" finished-at="2023-01-02T12:23:45 IST" duration-ms="2528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink -->
-        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:45 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T12:23:46 IST" duration-ms="767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PrincipalsDeskLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@6f46426d]" started-at="2023-01-02T12:23:46 IST" name="VisionMissionLink" finished-at="2023-01-02T12:23:48 IST" duration-ms="2738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
-      </class> <!-- OrchidCollegeWebSite.CampusLife -->
-      <class name="OrchidCollegeWebSite.AboutUsLInks">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:23:48 IST" name="beforeClass" finished-at="2023-01-02T12:24:09 IST" duration-ms="20936" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:24:09 IST" name="AboutNKOCETLink" finished-at="2023-01-02T12:24:21 IST" duration-ms="12300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutNKOCETLink -->
-        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:24:21 IST" name="AboutPNESLink" finished-at="2023-01-02T12:24:27 IST" duration-ms="5894" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AboutPNESLink -->
-        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:24:27 IST" name="CoreValuesLink" finished-at="2023-01-02T12:24:35 IST" duration-ms="7289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CoreValuesLink -->
-        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:24:35 IST" name="OrganogramLink" finished-at="2023-01-02T12:24:40 IST" duration-ms="4857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrganogramLink -->
-        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:24:40 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T12:24:44 IST" duration-ms="4795" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PrincipalsDeskLink -->
-        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@73700b80]" started-at="2023-01-02T12:24:44 IST" name="VisionMissionLink" finished-at="2023-01-02T12:24:49 IST" duration-ms="4759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VisionMissionLink -->
-      </class> <!-- OrchidCollegeWebSite.AboutUsLInks -->
-      <class name="OrchidCollegeWebSite.OrchidWebSiteTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:24:49 IST" name="init" finished-at="2023-01-02T12:25:14 IST" duration-ms="24726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="contactUsTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:14 IST" name="contactUsTest" finished-at="2023-01-02T12:25:20 IST" duration-ms="6419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUsTest -->
-        <test-method signature="entcDepartmentTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:20 IST" name="entcDepartmentTest" finished-at="2023-01-02T12:25:26 IST" duration-ms="5474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- entcDepartmentTest -->
-        <test-method signature="linkTestFacebookLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:26 IST" name="linkTestFacebookLinkTest" finished-at="2023-01-02T12:25:26 IST" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkTestFacebookLinkTest -->
-        <test-method signature="linkTestLinkediInLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:26 IST" name="linkTestLinkediInLinkTest" finished-at="2023-01-02T12:25:31 IST" duration-ms="5297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkTestLinkediInLinkTest -->
-        <test-method signature="linkTestTwitterLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:31 IST" name="linkTestTwitterLinkTest" finished-at="2023-01-02T12:25:37 IST" duration-ms="5256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkTestTwitterLinkTest -->
-        <test-method signature="linkTestYoutubeLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:37 IST" name="linkTestYoutubeLinkTest" finished-at="2023-01-02T12:25:42 IST" duration-ms="5343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linkTestYoutubeLinkTest -->
-        <test-method signature="noLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:25:42 IST" name="noLinkTest" finished-at="2023-01-02T12:26:03 IST" duration-ms="20712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- noLinkTest -->
-        <test-method signature="searchButtonTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@10d307f1]" started-at="2023-01-02T12:26:03 IST" name="searchButtonTest" finished-at="2023-01-02T12:26:31 IST" duration-ms="28021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchButtonTest -->
-      </class> <!-- OrchidCollegeWebSite.OrchidWebSiteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

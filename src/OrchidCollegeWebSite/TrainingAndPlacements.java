@@ -32,8 +32,14 @@ public class TrainingAndPlacements {
 
   
   
+  
+  
+  
+  
+  
+  
 	@Test
-	public void AboutNKOCETLink() {
+	public void Placements() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a"));
 		// Instantiating Actions class
@@ -61,7 +67,7 @@ public class TrainingAndPlacements {
 	}
 	
 	@Test
-	public void AboutPNESLink() {
+	public void PlacementTeam() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a"));
 		// Instantiating Actions class
@@ -90,7 +96,7 @@ public class TrainingAndPlacements {
 	
 
 	@Test
-	public void VisionMissionLink() {
+	public void OurRecruiters() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a"));
 		// Instantiating Actions class
@@ -118,7 +124,7 @@ public class TrainingAndPlacements {
 	}
 
 	@Test
-	public void CoreValuesLink() {
+	public void PhotoGallery() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a"));
 		// Instantiating Actions class
@@ -146,7 +152,7 @@ public class TrainingAndPlacements {
 	}
 
 	@Test
-	public void PrincipalsDeskLink() {
+	public void Alumni() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a"));
 		// Instantiating Actions class
@@ -174,7 +180,7 @@ public class TrainingAndPlacements {
 	}
 
 	@Test
-	public void OrganogramLink() {
+	public void MissionEmployability() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a"));
 		// Instantiating Actions class

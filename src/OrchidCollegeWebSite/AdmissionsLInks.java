@@ -31,7 +31,7 @@ public class AdmissionsLInks {
   
   
 	@Test
-	public void AboutNKOCETLink() {
+	public void BranchChange() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/a"));
 		// Instantiating Actions class

@@ -33,7 +33,7 @@ public class DepartmentsLInks {
   
   
 	@Test
-	public void AboutNKOCETLink() {
+	public void ArtificialIntelligance() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -61,7 +61,7 @@ public class DepartmentsLInks {
 	}
 	
 	@Test
-	public void AboutPNESLink() {
+	public void CivilEngineering() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -90,7 +90,7 @@ public class DepartmentsLInks {
 	
 
 	@Test
-	public void VisionMissionLink() {
+	public void ComputerScienceAndEngg() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -118,7 +118,7 @@ public class DepartmentsLInks {
 	}
 
 	@Test
-	public void CoreValuesLink() {
+	public void ENTC() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -146,7 +146,7 @@ public class DepartmentsLInks {
 	}
 
 	@Test
-	public void PrincipalsDeskLink() {
+	public void Electrical() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -174,7 +174,7 @@ public class DepartmentsLInks {
 	}
 
 	@Test
-	public void OrganogramLink() {
+	public void Mechcanical() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -202,7 +202,7 @@ public class DepartmentsLInks {
 	}
 	
 	@Test
-	public void OrganogramLink2() {
+	public void GeneralEngg() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class

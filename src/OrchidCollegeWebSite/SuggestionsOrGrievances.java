@@ -32,7 +32,7 @@ public class SuggestionsOrGrievances {
   
   
 	@Test
-	public void AboutNKOCETLink() {
+	public void SuggestionsAndGrievances() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[8]/a"));
 		// Instantiating Actions class

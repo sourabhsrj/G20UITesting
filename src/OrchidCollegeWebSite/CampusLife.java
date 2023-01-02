@@ -35,7 +35,7 @@ public class CampusLife {
 	  
 	  
 		@Test
-		public void AboutNKOCETLink() {
+		public void StudyAbroadCell() {
 
 			WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a"));
 			// Instantiating Actions class
@@ -63,7 +63,7 @@ public class CampusLife {
 		}
 		
 		@Test
-		public void AboutPNESLink() {
+		public void SoftSkillsTraining() {
 
 			WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a"));
 			// Instantiating Actions class
@@ -92,7 +92,7 @@ public class CampusLife {
 		
 
 		@Test
-		public void VisionMissionLink() {
+		public void BookBank() {
 
 			WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a"));
 			// Instantiating Actions class
@@ -120,7 +120,7 @@ public class CampusLife {
 		}
 
 		@Test
-		public void CoreValuesLink() {
+		public void EducationalTour() {
 
 			WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a"));
 			// Instantiating Actions class
@@ -148,7 +148,7 @@ public class CampusLife {
 		}
 
 		@Test
-		public void PrincipalsDeskLink() {
+		public void CarrerGuidance() {
 
 			WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a"));
 			// Instantiating Actions class
@@ -176,7 +176,7 @@ public class CampusLife {
 		}
 
 		@Test
-		public void OrganogramLink() {
+		public void GateCoaching() {
 
 			WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a"));
 			// Instantiating Actions class

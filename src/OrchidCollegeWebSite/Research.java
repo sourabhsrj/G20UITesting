@@ -31,8 +31,12 @@ public class Research {
 
   
   
+  
+  
+  
+  
 	@Test
-	public void AboutNKOCETLink() {
+	public void ResearchandDevelopment() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -60,7 +64,7 @@ public class Research {
 	}
 	
 	@Test
-	public void AboutPNESLink() {
+	public void OnlineProjectExhibition() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -89,7 +93,7 @@ public class Research {
 	
 
 	@Test
-	public void VisionMissionLink() {
+	public void IITRemoteCenter() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -117,7 +121,7 @@ public class Research {
 	}
 
 	@Test
-	public void CoreValuesLink() {
+	public void DREProgram() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -145,7 +149,7 @@ public class Research {
 	}
 
 	@Test
-	public void PrincipalsDeskLink() {
+	public void PhdFaculties() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -173,7 +177,7 @@ public class Research {
 	}
 
 	@Test
-	public void OrganogramLink() {
+	public void MHRD() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -201,7 +205,7 @@ public class Research {
 	}
 
 	@Test
-	public void OrganogramLink1() {
+	public void SpokenTutorialProject() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -229,7 +233,7 @@ public class Research {
 	}
 
 	@Test
-	public void OrganogramLink2() {
+	public void BTechMTechProjectTitles() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
@@ -257,8 +261,9 @@ public class Research {
 	}
 
 	@Test
-	public void OrganogramLink3() {
-
+	public void POPSOCOs() {
+		
+		  
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
 		Actions actions = new Actions(driver);
@@ -285,7 +290,7 @@ public class Research {
 	}
 
 	@Test
-	public void OrganogramLink4() {
+	public void NPTEL() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a"));
 		// Instantiating Actions class
