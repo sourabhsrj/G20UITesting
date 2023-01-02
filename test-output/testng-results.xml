@@ -1,39 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="62" passed="56" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-14T23:20:45 IST" name="Default suite" finished-at="2022-12-14T23:22:58 IST" duration-ms="133234">
+  <suite started-at="2023-01-02T07:34:02 IST" name="Default suite" finished-at="2023-01-02T07:47:37 IST" duration-ms="814447">
     <groups>
     </groups>
-    <test started-at="2022-12-14T23:20:45 IST" name="Default test" finished-at="2022-12-14T23:22:58 IST" duration-ms="133234">
-      <class name="OrchidCollegeWebSite.Setup">
-        <test-method is-config="true" signature="init()[pri:0, instance:OrchidCollegeWebSite.Setup@306f16f3]" started-at="2022-12-14T23:20:45 IST" name="init" finished-at="2022-12-14T23:20:57 IST" duration-ms="12398" status="PASS">
+    <test started-at="2023-01-02T07:34:02 IST" name="Default test" finished-at="2023-01-02T07:47:37 IST" duration-ms="814447">
+      <class name="OrchidCollegeWebSite.FeeStructureLinks">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.FeeStructureLinks@7ea9e1e2]" started-at="2023-01-02T07:34:02 IST" name="beforeClass" finished-at="2023-01-02T07:34:17 IST" duration-ms="14924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="FEESTRUCTURETLink()[pri:0, instance:OrchidCollegeWebSite.FeeStructureLinks@7ea9e1e2]" started-at="2023-01-02T07:34:17 IST" name="FEESTRUCTURETLink" finished-at="2023-01-02T07:34:20 IST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FEESTRUCTURETLink -->
+        <test-method signature="FeeStructureforAY2022_23Link()[pri:0, instance:OrchidCollegeWebSite.FeeStructureLinks@7ea9e1e2]" started-at="2023-01-02T07:34:20 IST" name="FeeStructureforAY2022_23Link" finished-at="2023-01-02T07:34:21 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeeStructureforAY2022_23Link -->
+      </class> <!-- OrchidCollegeWebSite.FeeStructureLinks -->
+      <class name="OrchidCollegeWebSite.TrainingAndPlacements">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:34:21 IST" name="beforeClass" finished-at="2023-01-02T07:34:35 IST" duration-ms="14050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:34:35 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:35:30 IST" duration-ms="54477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:35:30 IST" name="AboutPNESLink" finished-at="2023-01-02T07:35:32 IST" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:35:32 IST" name="CoreValuesLink" finished-at="2023-01-02T07:35:36 IST" duration-ms="3168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:35:36 IST" name="OrganogramLink" finished-at="2023-01-02T07:35:36 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:35:36 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:35:39 IST" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.TrainingAndPlacements@14555e0a]" started-at="2023-01-02T07:35:39 IST" name="VisionMissionLink" finished-at="2023-01-02T07:35:51 IST" duration-ms="11516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.TrainingAndPlacements -->
+      <class name="OrchidCollegeWebSite.ResearchLInks">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:35:51 IST" name="beforeClass" finished-at="2023-01-02T07:36:02 IST" duration-ms="11112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:36:02 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:36:14 IST" duration-ms="11965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:36:14 IST" name="AboutPNESLink" finished-at="2023-01-02T07:36:17 IST" duration-ms="3597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:36:17 IST" name="CoreValuesLink" finished-at="2023-01-02T07:36:22 IST" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:36:22 IST" name="OrganogramLink" finished-at="2023-01-02T07:36:24 IST" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:36:24 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:36:27 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.ResearchLInks@4bb33f74]" started-at="2023-01-02T07:36:27 IST" name="VisionMissionLink" finished-at="2023-01-02T07:36:30 IST" duration-ms="2828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.ResearchLInks -->
+      <class name="OrchidCollegeWebSite.SuggestionsOrGrievances">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.SuggestionsOrGrievances@759d26fb]" started-at="2023-01-02T07:36:30 IST" name="beforeClass" finished-at="2023-01-02T07:36:41 IST" duration-ms="10955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.SuggestionsOrGrievances@759d26fb]" started-at="2023-01-02T07:36:41 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:36:45 IST" duration-ms="3894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+      </class> <!-- OrchidCollegeWebSite.SuggestionsOrGrievances -->
+      <class name="OrchidCollegeWebSite.DepartmentsLInks">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:36:45 IST" name="beforeClass" finished-at="2023-01-02T07:36:58 IST" duration-ms="13345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:36:58 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:37:03 IST" duration-ms="5454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:37:03 IST" name="AboutPNESLink" finished-at="2023-01-02T07:37:07 IST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:37:07 IST" name="CoreValuesLink" finished-at="2023-01-02T07:37:13 IST" duration-ms="6635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:37:13 IST" name="OrganogramLink" finished-at="2023-01-02T07:37:17 IST" duration-ms="4003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="OrganogramLink2()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:37:17 IST" name="OrganogramLink2" finished-at="2023-01-02T07:37:20 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink2 -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:37:20 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:37:24 IST" duration-ms="3860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.DepartmentsLInks@3c73951]" started-at="2023-01-02T07:37:24 IST" name="VisionMissionLink" finished-at="2023-01-02T07:37:36 IST" duration-ms="11558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.DepartmentsLInks -->
+      <class name="OrchidCollegeWebSite.Research">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:37:36 IST" name="beforeClass" finished-at="2023-01-02T07:37:57 IST" duration-ms="20896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:37:57 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:38:02 IST" duration-ms="5249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:02 IST" name="AboutPNESLink" finished-at="2023-01-02T07:38:05 IST" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:05 IST" name="CoreValuesLink" finished-at="2023-01-02T07:38:08 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:08 IST" name="OrganogramLink" finished-at="2023-01-02T07:38:11 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="OrganogramLink1()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:11 IST" name="OrganogramLink1" finished-at="2023-01-02T07:38:14 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink1 -->
+        <test-method signature="OrganogramLink2()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:14 IST" name="OrganogramLink2" finished-at="2023-01-02T07:38:17 IST" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink2 -->
+        <test-method signature="OrganogramLink3()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:17 IST" name="OrganogramLink3" finished-at="2023-01-02T07:38:21 IST" duration-ms="3535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink3 -->
+        <test-method signature="OrganogramLink4()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:21 IST" name="OrganogramLink4" finished-at="2023-01-02T07:38:24 IST" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink4 -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:24 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:38:28 IST" duration-ms="3689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.Research@3d5c822d]" started-at="2023-01-02T07:38:28 IST" name="VisionMissionLink" finished-at="2023-01-02T07:38:31 IST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.Research -->
+      <class name="OrchidCollegeWebSite.ContactUs">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.ContactUs@6f46426d]" started-at="2023-01-02T07:38:31 IST" name="beforeClass" finished-at="2023-01-02T07:38:42 IST" duration-ms="11026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.ContactUs@6f46426d]" started-at="2023-01-02T07:38:42 IST" name="AboutPNESLink" finished-at="2023-01-02T07:38:45 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.ContactUs@6f46426d]" started-at="2023-01-02T07:38:45 IST" name="VisionMissionLink" finished-at="2023-01-02T07:38:47 IST" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+        <test-method signature="contactUsTest()[pri:0, instance:OrchidCollegeWebSite.ContactUs@6f46426d]" started-at="2023-01-02T07:38:47 IST" name="contactUsTest" finished-at="2023-01-02T07:38:51 IST" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsTest -->
+      </class> <!-- OrchidCollegeWebSite.ContactUs -->
+      <class name="OrchidCollegeWebSite.AdmissionsLInks">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@73700b80]" started-at="2023-01-02T07:38:51 IST" name="beforeClass" finished-at="2023-01-02T07:39:09 IST" duration-ms="18066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@73700b80]" started-at="2023-01-02T07:39:09 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:39:13 IST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@73700b80]" started-at="2023-01-02T07:39:13 IST" name="CoreValuesLink" finished-at="2023-01-02T07:40:13 IST" duration-ms="60069" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at OrchidCollegeWebSite.AdmissionsLInks.CoreValuesLink(AdmissionsLInks.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@73700b80]" started-at="2023-01-02T07:40:13 IST" name="OrganogramLink" finished-at="2023-01-02T07:41:13 IST" duration-ms="60062" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at OrchidCollegeWebSite.AdmissionsLInks.OrganogramLink(AdmissionsLInks.java:177)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@73700b80]" started-at="2023-01-02T07:41:13 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:42:13 IST" duration-ms="60052" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at OrchidCollegeWebSite.AdmissionsLInks.PrincipalsDeskLink(AdmissionsLInks.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.AdmissionsLInks@73700b80]" started-at="2023-01-02T07:42:13 IST" name="VisionMissionLink" finished-at="2023-01-02T07:43:13 IST" duration-ms="60045" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87418ebaeaf9c5671b8635c35f14cb25, findElement {using=xpath, value=//*[@id="masthead"]/div/div/div/nav/ul/li[3]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54008/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87418ebaeaf9c5671b8635c35f14cb25
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at OrchidCollegeWebSite.AdmissionsLInks.VisionMissionLink(AdmissionsLInks.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.AdmissionsLInks -->
+      <class name="OrchidCollegeWebSite.CampusLife">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:13 IST" name="beforeClass" finished-at="2023-01-02T07:43:23 IST" duration-ms="9978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:23 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:43:27 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:27 IST" name="AboutPNESLink" finished-at="2023-01-02T07:43:29 IST" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:29 IST" name="CoreValuesLink" finished-at="2023-01-02T07:43:32 IST" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:32 IST" name="OrganogramLink" finished-at="2023-01-02T07:43:34 IST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:34 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:43:35 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.CampusLife@49c7b90e]" started-at="2023-01-02T07:43:35 IST" name="VisionMissionLink" finished-at="2023-01-02T07:43:37 IST" duration-ms="2396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.CampusLife -->
+      <class name="OrchidCollegeWebSite.AboutUsLInks">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:43:37 IST" name="beforeClass" finished-at="2023-01-02T07:43:58 IST" duration-ms="20403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AboutNKOCETLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:43:58 IST" name="AboutNKOCETLink" finished-at="2023-01-02T07:44:04 IST" duration-ms="5990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutNKOCETLink -->
+        <test-method signature="AboutPNESLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:44:04 IST" name="AboutPNESLink" finished-at="2023-01-02T07:44:08 IST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPNESLink -->
+        <test-method signature="CoreValuesLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:44:08 IST" name="CoreValuesLink" finished-at="2023-01-02T07:44:12 IST" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoreValuesLink -->
+        <test-method signature="OrganogramLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:44:12 IST" name="OrganogramLink" finished-at="2023-01-02T07:44:17 IST" duration-ms="4709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganogramLink -->
+        <test-method signature="PrincipalsDeskLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:44:17 IST" name="PrincipalsDeskLink" finished-at="2023-01-02T07:44:22 IST" duration-ms="4809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrincipalsDeskLink -->
+        <test-method signature="VisionMissionLink()[pri:0, instance:OrchidCollegeWebSite.AboutUsLInks@10d307f1]" started-at="2023-01-02T07:44:22 IST" name="VisionMissionLink" finished-at="2023-01-02T07:44:27 IST" duration-ms="4549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisionMissionLink -->
+      </class> <!-- OrchidCollegeWebSite.AboutUsLInks -->
+      <class name="OrchidCollegeWebSite.OrchidWebSiteTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:44:27 IST" name="init" finished-at="2023-01-02T07:44:41 IST" duration-ms="14633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="enquiryButtonTest()[pri:0, instance:OrchidCollegeWebSite.Setup@306f16f3]" started-at="2022-12-14T23:20:57 IST" name="enquiryButtonTest" finished-at="2022-12-14T23:21:58 IST" duration-ms="60740" status="FAIL">
+        <test-method signature="contactUsTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:44:41 IST" name="contactUsTest" finished-at="2023-01-02T07:44:46 IST" duration-ms="4779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsTest -->
+        <test-method signature="entcDepartmentStaffNameTest1()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:44:46 IST" name="entcDepartmentStaffNameTest1" finished-at="2023-01-02T07:45:46 IST" duration-ms="60023" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="breadcrumbs"]/li[1]/a/span"}
-  (Session info: chrome=108.0.5359.99)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post-7917"]/div/div[1]/div/div/div/div[2]/div/div[1]/ul/li[2]/a/span"}
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77681b7d66bb41bb01ce430aecc47dee, findElement {using=xpath, value=//*[@id="breadcrumbs"]/li[1]/a/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50824/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77681b7d66bb41bb01ce430aecc47dee]]>
+Command: [5e8801d48dbd681f9759baf90d651469, findElement {using=xpath, value=//*[@id="post-7917"]/div/div[1]/div/div/div/div[2]/div/div[1]/ul/li[2]/a/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54160/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e8801d48dbd681f9759baf90d651469]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="breadcrumbs"]/li[1]/a/span"}
-  (Session info: chrome=108.0.5359.99)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post-7917"]/div/div[1]/div/div/div/div[2]/div/div[1]/ul/li[2]/a/span"}
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77681b7d66bb41bb01ce430aecc47dee, findElement {using=xpath, value=//*[@id="breadcrumbs"]/li[1]/a/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50824/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77681b7d66bb41bb01ce430aecc47dee
+Command: [5e8801d48dbd681f9759baf90d651469, findElement {using=xpath, value=//*[@id="post-7917"]/div/div[1]/div/div/div/div[2]/div/div[1]/ul/li[2]/a/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54160/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e8801d48dbd681f9759baf90d651469
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -49,7 +597,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at OrchidCollegeWebSite.Setup.enquiryButtonTest(Setup.java:78)
+at OrchidCollegeWebSite.OrchidWebSiteTest.entcDepartmentStaffNameTest1(OrchidWebSiteTest.java:126)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,30 +631,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enquiryButtonTest -->
-        <test-method signature="enquiryButtonTest2()[pri:0, instance:OrchidCollegeWebSite.Setup@306f16f3]" started-at="2022-12-14T23:21:58 IST" name="enquiryButtonTest2" finished-at="2022-12-14T23:22:58 IST" duration-ms="60035" status="FAIL">
+        </test-method> <!-- entcDepartmentStaffNameTest1 -->
+        <test-method signature="entcDepartmentStaffNameTest2()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:45:46 IST" name="entcDepartmentStaffNameTest2" finished-at="2023-01-02T07:46:46 IST" duration-ms="60038" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="wpcf7-f7295-p7296-o1"]/form/p[1]/span/input"}
-  (Session info: chrome=108.0.5359.99)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="faculty-and-staff"]/div[2]/div/div/div/table/tbody/tr[13]/td[2]/a"}
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77681b7d66bb41bb01ce430aecc47dee, findElement {using=xpath, value=//*[@id="wpcf7-f7295-p7296-o1"]/form/p[1]/span/input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50824/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77681b7d66bb41bb01ce430aecc47dee]]>
+Command: [5e8801d48dbd681f9759baf90d651469, findElement {using=xpath, value=//*[@id="faculty-and-staff"]/div[2]/div/div/div/table/tbody/tr[13]/td[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54160/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e8801d48dbd681f9759baf90d651469]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="wpcf7-f7295-p7296-o1"]/form/p[1]/span/input"}
-  (Session info: chrome=108.0.5359.99)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="faculty-and-staff"]/div[2]/div/div/div/table/tbody/tr[13]/td[2]/a"}
+  (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77681b7d66bb41bb01ce430aecc47dee, findElement {using=xpath, value=//*[@id="wpcf7-f7295-p7296-o1"]/form/p[1]/span/input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50824}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50824/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77681b7d66bb41bb01ce430aecc47dee
+Command: [5e8801d48dbd681f9759baf90d651469, findElement {using=xpath, value=//*[@id="faculty-and-staff"]/div[2]/div/div/div/table/tbody/tr[13]/td[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Sourabh\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54160/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e8801d48dbd681f9759baf90d651469
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -122,7 +670,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at OrchidCollegeWebSite.Setup.enquiryButtonTest2(Setup.java:100)
+at OrchidCollegeWebSite.OrchidWebSiteTest.entcDepartmentStaffNameTest2(OrchidWebSiteTest.java:193)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -156,8 +704,36 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enquiryButtonTest2 -->
-      </class> <!-- OrchidCollegeWebSite.Setup -->
+        </test-method> <!-- entcDepartmentStaffNameTest2 -->
+        <test-method signature="entcDepartmentTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:46:46 IST" name="entcDepartmentTest" finished-at="2023-01-02T07:46:52 IST" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entcDepartmentTest -->
+        <test-method signature="linkTestFacebookLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:46:52 IST" name="linkTestFacebookLinkTest" finished-at="2023-01-02T07:46:52 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTestFacebookLinkTest -->
+        <test-method signature="linkTestLinkediInLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:46:52 IST" name="linkTestLinkediInLinkTest" finished-at="2023-01-02T07:46:57 IST" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTestLinkediInLinkTest -->
+        <test-method signature="linkTestTwitterLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:46:57 IST" name="linkTestTwitterLinkTest" finished-at="2023-01-02T07:47:03 IST" duration-ms="5288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTestTwitterLinkTest -->
+        <test-method signature="linkTestYoutubeLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:47:03 IST" name="linkTestYoutubeLinkTest" finished-at="2023-01-02T07:47:08 IST" duration-ms="5530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTestYoutubeLinkTest -->
+        <test-method signature="noLinkTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:47:08 IST" name="noLinkTest" finished-at="2023-01-02T07:47:29 IST" duration-ms="21279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noLinkTest -->
+        <test-method signature="searchButtonTest()[pri:0, instance:OrchidCollegeWebSite.OrchidWebSiteTest@3e84448c]" started-at="2023-01-02T07:47:29 IST" name="searchButtonTest" finished-at="2023-01-02T07:47:37 IST" duration-ms="7209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchButtonTest -->
+      </class> <!-- OrchidCollegeWebSite.OrchidWebSiteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrchidCollegeWebSite.Setup">
+      <class name="OrchidCollegeWebSite.OrchidWebSiteTest">
         <methods>
-          <include name="enquiryButtonTest"/>
-          <include name="enquiryButtonTest2"/>
+          <include name="entcDepartmentStaffNameTest2"/>
+          <include name="entcDepartmentStaffNameTest1"/>
           <include name="init"/>
         </methods>
-      </class> <!-- OrchidCollegeWebSite.Setup -->
+      </class> <!-- OrchidCollegeWebSite.OrchidWebSiteTest -->
+      <class name="OrchidCollegeWebSite.AdmissionsLInks">
+        <methods>
+          <include name="PrincipalsDeskLink"/>
+          <include name="CoreValuesLink"/>
+          <include name="OrganogramLink"/>
+          <include name="VisionMissionLink"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- OrchidCollegeWebSite.AdmissionsLInks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

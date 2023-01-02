@@ -1,0 +1,94 @@
+
+tnp nested work pending
+campus life 2 links and 2 coloum work pending
+admission links pending
+-about us-
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/ul/li[1]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/ul/li[2]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/ul/li[3]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/ul/li[4]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/ul/li[5]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[1]/ul/li[6]/a
+
+-Fee Structure
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[2]/a
+
+-Admissions
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/ul/li[1]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/ul/li[2]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/ul/li[3]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/ul/li[4]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/ul/li[5]/a
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[3]/ul/li[6]/a
+-Departments
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a
+		-
+		-
+		-
+		-
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/ul/li[7]/a
+	
+-Research
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[5]/a
+		-
+		-
+		-
+		-
+		-//*[@id="masthead"]/div/div/div/nav/ul/li[5]/ul/li[10]/a
+	
+-Training & Placements
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/a
+		-
+		-
+		-
+		-
+		-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[6]/ul/li[7]/a
+	
+-Campus Life
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[7]/a
+	-
+		-//*[@id="menu-special-features-1"]/li[8]/a
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-//*[@id="menu-students-corner-1"]/li[13]/a
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-//*[@id="menu-facilities-1"]/li[13]/a
+-Suggestions / Grievances
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[8]/a
+	
+	
+-Contact Us
+	-//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/a
+	-
+		-//*[@id="masthead"]/div/div/div/nav/ul/li[9]/ul/li[1]/a
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+		-
+	
+
+	

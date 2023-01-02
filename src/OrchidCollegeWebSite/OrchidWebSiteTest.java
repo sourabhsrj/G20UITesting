@@ -36,7 +36,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void searchButton() {
+	public void searchButtonTest() {
 
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@class=\"search-field\"]")).sendKeys("Computer");
@@ -46,7 +46,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void entcDepartment() throws InterruptedException {
+	public void entcDepartmentTest() throws InterruptedException {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[4]/a"));
 		// Instantiating Actions class
@@ -120,7 +120,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void entcDepartmentStaff1() throws InterruptedException {
+	public void entcDepartmentStaffNameTest1() throws InterruptedException {
 
 		Actions actions = new Actions(driver);
 		WebElement Staff = driver.findElement(
@@ -173,7 +173,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void entcDepartmentStaff2() throws InterruptedException {
+	public void entcDepartmentStaffNameTest2() throws InterruptedException {
 
 //                Actions actions = new Actions(driver);
 //                WebElement Staff = driver.findElement(By.xpath("//*[@id=\\\"post-7917\\\"]/div/div[1]/div/div/div/div[2]/div/div[1]/ul/li[2]/a/span"));
@@ -215,7 +215,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void contactUs() {
+	public void contactUsTest() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/a"));
 		// Instantiating Actions class
@@ -251,7 +251,7 @@ public class OrchidWebSiteTest {
 	
 	
 	@Test
-	public void noLink() {
+	public void noLinkTest() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"masthead\"]/div/div/div/nav/ul/li[9]/a"));
 		// Instantiating Actions class
@@ -284,7 +284,7 @@ public class OrchidWebSiteTest {
 	
 
 	@Test
-	public void linkTestFacebookLink() {
+	public void linkTestFacebookLinkTest() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"social-4\"]/div/div/ul/li[1]/a/i"));
 		// Instantiating Actions class
@@ -317,7 +317,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void linkTestTwitterLink() {
+	public void linkTestTwitterLinkTest() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"social-4\"]/div/div/ul/li[2]/a/i"));
 		// Instantiating Actions class
@@ -350,7 +350,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void linkTestLinkediInLink() {
+	public void linkTestLinkediInLinkTest() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"social-4\"]/div/div/ul/li[3]/a/i"));
 		// Instantiating Actions class
@@ -383,7 +383,7 @@ public class OrchidWebSiteTest {
 	}
 
 	@Test
-	public void linkTestYoutubeLink() {
+	public void linkTestYoutubeLinkTest() {
 
 		WebElement mainMenu = driver.findElement(By.xpath("//*[@id=\"social-4\"]/div/div/ul/li[4]/a/i"));
 		// Instantiating Actions class
